@@ -1,0 +1,238 @@
+body{
+  background-color: blanchedalmond;
+}
+
+#calculadora{
+  background-color: gray;
+  height: 550px;
+  width: 400px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50px;
+  left: 510px;
+}
+#tela{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  background: #145714;
+  opacity: 0.6;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  position: absolute;
+  right: 12.25%;
+  top: 5%;
+}
+#tela h1 {
+  margin-right: 10px;
+  display: none;
+}
+button{
+  border-radius: 5px;
+  height: 50px;
+  width: 60px;
+  position: absolute;
+  right: 50%;
+}
+
+#botao0{
+  position:absolute;
+  top: 90%;
+  right: 37%;
+  width: 60%;
+}
+
+#botao1{
+  position:absolute;
+  top: 80%;
+  right: 82%;
+}
+
+#botao2{
+  position:absolute;
+  top: 80%;
+  right: 59%;
+}
+
+#botao3{
+  position:absolute;
+  top: 80%;
+  right: 37%;
+
+}
+
+#botao4{
+  position:absolute;
+  top: 70%;
+  right: 82%;
+
+}
+
+#botao5{
+  position:absolute;
+  top: 70%;
+  right: 59%;
+
+}
+
+#botao6{
+  position:absolute;
+  top:70%;
+  right: 37%;
+}
+
+#botao7{
+  position: absolute;
+  top:60%;
+  right: 82%;
+
+}
+
+#botao8{
+  position: absolute;
+  top: 60%;
+  right: 59%;
+}
+
+#botao9{
+  position: absolute;
+  top: 60%;
+  right: 37%;
+}
+
+#mais{
+  position: absolute;
+  top: 80%;
+  right: 20%;
+  background-color: black;
+  color: white;
+  font-size: medium;
+
+}
+
+#menos{
+  position: absolute;
+  top: 80%;
+  right: 3%;
+  background-color: black;
+  color: white;
+  font-size: medium;
+
+}
+
+#sqrt{
+  position: absolute;
+  top:60%;
+  right: 3%;
+  background-color: black;
+  color: white;
+
+}
+
+#multiplicação{
+  position: absolute;
+  top: 70%;
+  right: 20%;
+  background-color: black;
+  color: white;
+  font-size: medium;
+}
+
+#divisao{
+  position: absolute;
+  top: 70%;
+  right: 3%;
+  background-color: black;
+  color: white;
+  font-size:medium ;
+}
+
+#expoente{
+  position: absolute;
+  top: 60%;
+  right: 20%;
+  background-color: black;
+  color: white;
+  font-size: medium;
+
+}
+
+#igual{
+  position:absolute;
+  top:90%;
+  right: 2%;
+  width: 33%;
+  background-color: rgb(31, 184, 31);
+  color:white;
+  
+}
+
+#lower{
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  background-color: black;
+  color: white;
+}
+
+#greater{
+  position: absolute;
+  top: 50%;
+  right: 3%;
+  background-color: black;
+  color: white;
+
+}
+
+#lowere{
+  position: absolute;
+  top: 40%;
+  right: 20%;
+  background-color: black;
+  color: white;
+
+}
+#greatere{
+  position: absolute;
+  top:40%;
+  right: 3%;
+  background-color: black;
+  color: white;
+}
+
+#parents1{
+  position: absolute;
+  top: 50%;
+  right: 37%;
+  background-color: black;
+  color: white;
+}
+
+#parents2{
+  position: absolute;
+  top: 40%;
+  right: 37%;
+  background-color: black;
+  color: white;
+}
+#buttonON{
+  position: absolute;
+  top: 40%;
+  width: 38%;
+  right: 59%;
+  background-color: red;
+  color: white;
+  font-size: larger;
+}
+#buttomCLEAR{
+  position: absolute;
+  top: 50%;
+  width: 38%;
+  right: 59%;
+  background-color: rgb(87, 85, 85);
+  color: white;
+  font-size: large;
+
+}
